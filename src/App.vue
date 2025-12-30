@@ -44,10 +44,45 @@
     </section>
     <section>
       <h2
-        class="text-3xl font-bold text-slate-100 flex items-center max-md:justify-center self-start gap-3 md:row-start-1"
+        class="text-3xl py-12 font-bold text-slate-100 flex items-center max-md:justify-center self-start gap-3 md:row-start-1"
       >
         <span class="w-8 h-1 bg-cyan-400 max-md:hidden"></span>Projects
       </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <a
+          href="https://abstract-help-tailwind.netlify.app/"
+          class="group block bg-slate-800/50 p-8 border border-slate-800 hover:border-cyan-400/50 transition-colors duration-300 max-md:w-[90vw] justify-self-center"
+          ><div class="flex justify-between items-start mb-4">
+            <h3
+              class="text-xl font-bold text-slate-100 group-hover:text-cyan-400 transition-colors"
+            >
+              Abstarct Help page clone
+            </h3>
+          </div></a
+        >
+        <a
+          href="https://startbucks-clone.netlify.app/"
+          class="group block bg-slate-800/50 p-8 border border-slate-800 hover:border-cyan-400/50 transition-colors duration-300 max-md:w-[90vw] justify-self-center"
+          ><div class="flex justify-between items-start mb-4">
+            <h3
+              class="text-xl font-bold text-slate-100 group-hover:text-cyan-400 transition-colors"
+            >
+              startbucks page clone
+            </h3>
+          </div></a
+        >
+        <a
+          href="https://about-ableton.netlify.app/"
+          class="group block bg-slate-800/50 p-8 border border-slate-800 hover:border-cyan-400/50 transition-colors duration-300 max-md:w-[90vw] justify-self-center"
+          ><div class="flex justify-between items-start mb-4">
+            <h3
+              class="text-xl font-bold text-slate-100 group-hover:text-cyan-400 transition-colors"
+            >
+              startbucks page clone
+            </h3>
+          </div></a
+        >
+      </div>
     </section>
   </main>
 </template>
