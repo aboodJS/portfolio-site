@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main class="bg-slate-900 grid justify-center">
-    <section class="max-w-4xl grid h-screen content-center gap-8">
+  <main class="bg-slate-900 grid justify-center gap-10">
+    <section class="max-w-4xl grid h-screen content-center gap-8 max-md:text-center">
       <p class="text-cyan-400 font-medium">PORTFOLIO</p>
       <div class="md:text-7xl text-5xl font-bold">
         <h1 class="text-white">Abdullah</h1>
@@ -42,7 +42,7 @@
         </p>
       </div>
     </section>
-    <section>
+    <section class="h-[80vh]">
       <h2
         class="text-3xl py-12 font-bold text-slate-100 flex items-center max-md:justify-center self-start gap-3 md:row-start-1"
       >
@@ -82,6 +82,48 @@
             </h3>
           </div></a
         >
+      </div>
+    </section>
+    <section class="flex flex-col gap-7">
+      <h3 class="text-3xl font-bold text-slate-100 flex gap-3 max-md:m-auto">
+        <span class="w-8 h-1 bg-cyan-400 max-md:hidden"></span>Tech Stack
+      </h3>
+      <div class="flex gap-x-8 flex-wrap col-span-2">
+        <p
+          class="text-xl md:text-2xl text-slate-400 hover:text-cyan-400 transition-colors cursor-default"
+        >
+          VueJS
+        </p>
+        <p
+          class="text-xl md:text-2xl text-slate-400 hover:text-cyan-400 transition-colors cursor-default"
+        >
+          ReactJS
+        </p>
+        <p
+          class="text-xl md:text-2xl text-slate-400 hover:text-cyan-400 transition-colors cursor-default"
+        >
+          JavaScript
+        </p>
+        <p
+          class="text-xl md:text-2xl text-slate-400 hover:text-cyan-400 transition-colors cursor-default"
+        >
+          TypeScript
+        </p>
+        <p
+          class="text-xl md:text-2xl text-slate-400 hover:text-cyan-400 transition-colors cursor-default"
+        >
+          TailWind CSS
+        </p>
+        <p
+          class="text-xl md:text-2xl text-slate-400 hover:text-cyan-400 transition-colors cursor-default"
+        >
+          NodeJS
+        </p>
+        <p
+          class="text-xl md:text-2xl text-slate-400 hover:text-cyan-400 transition-colors cursor-default"
+        >
+          Git
+        </p>
       </div>
     </section>
   </main>
