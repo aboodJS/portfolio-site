@@ -44,7 +44,7 @@
     </section>
     <section class="h-[80vh]">
       <h2
-        class="text-3xl py-12 font-bold text-slate-100 flex items-center max-md:justify-center self-start gap-3 md:row-start-1"
+        class="text-3xl font-bold text-slate-100 flex items-center max-md:justify-center self-start gap-3 md:row-start-1"
       >
         <span class="w-8 h-1 bg-cyan-400 max-md:hidden"></span>Projects
       </h2>
@@ -85,9 +85,9 @@
       </div>
     </section>
     <section class="flex flex-col gap-7">
-      <h3 class="text-3xl font-bold text-slate-100 flex gap-3 max-md:m-auto">
+      <h2 class="text-3xl font-bold text-slate-100 flex gap-3 max-md:m-auto">
         <span class="w-8 h-1 bg-cyan-400 max-md:hidden"></span>Tech Stack
-      </h3>
+      </h2>
       <div class="flex gap-x-8 flex-wrap col-span-2">
         <p
           class="text-xl md:text-2xl text-slate-400 hover:text-cyan-400 transition-colors cursor-default"
@@ -125,6 +125,19 @@
           Git
         </p>
       </div>
+    </section>
+    <section class="h-screen grid justify-center content-center max-md:text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-8 text-slate-100">
+        Ready to build something <span class="text-cyan-400">extraordinary?</span>
+      </h1>
+      <p class="text-xl text-slate-400 mb-12 max-w-2xl mx-auto">
+        I'm currently available for freelance projects
+      </p>
+      <a
+        href="mailto:aboodjs-Dev@proton.me"
+        class="bg-cyan-400 text-slate-900 py-4 rounded-full font-bold text-lg hover:bg-cyan-300 transition-colors duration-300 w-44 h-14 text-center justify-self-center"
+        >Let's Talk</a
+      >
     </section>
   </main>
 </template>
